@@ -25,6 +25,8 @@ Build a *Lookalike Model* that:
 - Uses both *customer* and *product information*.
 - Assigns a *similarity score* to each recommended customer.
 
+---
+
 ### Task 3: Customer Segmentation / Clustering
 #### Objectives:
 Perform *Customer Segmentation* using clustering techniques by utilizing:
