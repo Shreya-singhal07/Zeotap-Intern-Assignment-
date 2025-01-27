@@ -8,17 +8,13 @@ Customers.csv, Products.csv, and Transactions.csv.
 * build predictive models
 * derive actionable insights
 
-## Assignment Tasks
+## Tasks
 
 ### Task 1: Exploratory Data Analysis (EDA) and Business Insights
 #### Objectives:
 1. Perform *Exploratory Data Analysis (EDA)* on the provided dataset.
 2. Derive at least *5 business insights* from the analysis.
    - Each insight should be written in short, point-wise sentences (maximum 100 words per insight).
-
-#### Deliverables:
-- A *Jupyter Notebook/Python script* containing your EDA code.
-- A *PDF report* with business insights (maximum 500 words).
 
 ---
 
@@ -29,5 +25,14 @@ Build a *Lookalike Model* that:
 - Uses both *customer* and *product information*.
 - Assigns a *similarity score* to each recommended customer.
 
-#### Deliverables:
-- A file named *Lookalike.csv* containing the top 3 lookalikes for the first 20 customers (CustomerID: C0001 - C0020) in the format:
+### Task 3: Customer Segmentation / Clustering
+#### Objectives:
+Perform *Customer Segmentation* using clustering techniques by utilizing:
+- *Profile information* (from Customers.csv).
+- *Transaction information* (from Transactions.csv).
+
+#### Key Requirements:
+- Choose any clustering algorithm and form *2 to 10 clusters*.
+- Calculate clustering metrics, including the *DB Index* (primary evaluation metric).
+- Visualize your clusters using relevant plots.
+
